@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `wana`,
+    description: `Wide range of insurance products for small businesses tailored to industry needs, Insurance that is easy to understand, easy to buy, easy to manage.`,
+    author: `Ardy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,13 +43,13 @@ module.exports = {
         // The name of your prismic.io repository. This is required.
         // Example: 'gatsby-source-prismic-test-site' if your prismic.io address
         // is 'gatsby-source-prismic-test-site.prismic.io'.
-        repositoryName: 'affinityau',
+        repositoryName: 'wana',
 
         // An API access token to your prismic.io repository. This is optional.
         // You can generate an access token in the "API & Security" section of
         // your repository settings. Setting a "Callback URL" is not necessary.
         // The token will be listed under "Permanent access tokens".
-        accessToken: 'MC5ZTEh4UnhBQUFDUUFiUzd6.77-9Wlbvv70eLe-_vVQqB--_ve-_vXJGIO-_vSHvv71hHVMD77-977-9RXfvv73vv71TZH3vv70',
+        accessToken: 'MC5ZTWJRdEJJQUFDUUFkcW5B.UH4W77-9DO-_ve-_ve-_vUzvv70OU--_vW4577-977-9LU4KcO-_ve-_vVvvv73vv70hHzss77-9QQ',
 
         // If you provide a release ID, the plugin will fetch data from Prismic
         // for a specific release. A Prismic release is a way to gather a
@@ -56,7 +57,7 @@ module.exports = {
         // if you add changes to a release, you'll need to rebuild your website
         // to see them.
         // See: https://user-guides.prismic.io/en/collections/22653-releases-scheduling#the-basics-of-a-release
-        releaseID: 'YLHxRxAAACQAbS7y',
+        releaseID: 'YMbQtBIAACEAdqm_',
 
         // Set a link resolver function used to process links in your content.
         // Fields with rich text formatting or links to internal content use this

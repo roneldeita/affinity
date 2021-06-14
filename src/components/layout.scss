@@ -1,0 +1,12 @@
+$body-bg: #ffffff;
+$body-color: #111;
+$primary: #FF9900;
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.aon-primary-color{
+    color: #FF9900
+}
+.aon-primary-bg-color{
+    background-color: #FF9900
+}

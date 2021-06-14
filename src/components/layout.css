@@ -19,6 +19,9 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+main{
+  max-width: 1480px;
+}
 article,
 aside,
 details,
